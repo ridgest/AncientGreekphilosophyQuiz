@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Shows a toast with the results
 
-        Toast.makeText(this, userName + " ,your score is " + score, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, userName + ", your score is " + score + " out of 6", Toast.LENGTH_SHORT).show();
 
     }
 }
